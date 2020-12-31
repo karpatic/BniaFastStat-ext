@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
+    <link href="./popup.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="heading">BniaFastStat</div>
+        <label for="endpoint-select">Choose your value</label>
+        <select name="" id="endpoint-select">
+            <option value="Tpop">Tpop</option>
+            <option value="Hhchpov">Hhchpov</option>
+            <option value="Hhpov">Hhpov</option>
+            <option value="Hhsize">Hhsize</option>
+            <option value="Hhs">Hhs</option>
+        </select>
+        <button id='query-button'>Send query</button>
+        <div>Result JSON:</div>
+        <textarea rows="10" id='result-textarea'></textarea>
+    </div>
+    <script type="text/javascript" src="./popup.js"></script>
+</body>
+
+</html>

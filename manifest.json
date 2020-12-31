@@ -1,0 +1,26 @@
+{
+    "name": "BniaFastStat",
+    "version": "1.0.0",
+    "description": "Quickly reference community statistics when browsing.",
+    "manifest_version": 2,
+    "permissions": [
+        "https://services1.arcgis.com/*"
+    ],
+    "background": {
+        "scripts": [
+            "./src/background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "./images/icons/icon.png",
+            "48": "./images/icons/icon.png"
+        },
+        "default_popup": "./src/pages/popup.html"
+    },
+    "icons": {
+        "16": "./images/icons/icon.png",
+        "48": "./images/icons/icon.png",
+        "128": "./images/icons/icon.png"
+    }
+}
